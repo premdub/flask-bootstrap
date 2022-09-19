@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- the important part here is naming the correct .css file you want to load! -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+        <!-- important to note, that the location of filename by default, is going to look for things in a 'static' folder -->
+    </head>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <body>
+        <body>
+            <h1 style="text-align:center;font-size:300%;color:blue;">Welcome to Patient Portal</h1>
+            <h2 style="text-align:center;font-size:200%;color:rgb(255, 153, 0);">  message from your provider</h2>
+            <h1 style="text-align:center;">Your portal to a Health Life</h1>
+          
+
+
+        <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+    </head>
+      
+            
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Communicate with your doctor</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* View your recent clinic visit</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Request prescription renewal</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* Request appointment</p>
+        <p style="text-align:center;font-size:128%;color:rgb(255, 0, 0)">* View your test results</p>
+        <img src="static\health.gif" alt="Paris" style="width:10%;">
+            
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sign In</h5>
+              <p class="card-text">Please sign in to your portal</p>
+              <a href="#" class="btn btn-primary">home</a>
+        <p style=font-size:100%;color:blue;> sign in</p>
+        <button type="button" class="btn btn-primary">Username</button>
+        <button type="button" class="btn btn-secondary">Password</button>
+    </div>
+        <!-- <div class="Button-SN">
+        </button><a class="SN" href="#">
+        </a></div> -->
+            <button type="button" class="btn btn-warning">Forget Username 
+                and/or Password</button>
+
+
+  
+            <div class="card" style="text-align:center; width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Home</a>
+             
+                <button class="btn btn-info" onclick="alert('Please contact our office in the event you need to cancel appointment')">  Upcoming Appointment</button> 
+                <button class="btn btn-dark"  onclick="alert('Please contact SharedLab for your testing results')">  Lab</button> 
+                <button class="btn btn-success" onclick="alert('Please contact CVS Pharmacy for your prescribed medications')">  Prescriptions</button> 
+                <button class="btn btn-warning" onclick="alert('Schedule your preventive care services.  You are due for 4 preventive care services')">Messages</button>
+        
+                <div class="Button-SN">
+                </button><a class="SN" href="#">Feedback</a></div>
+        
+            </div>
+   
+
+
+
+
+
+
+
+
+    </body>
+</html>

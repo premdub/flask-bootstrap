@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+        <!-- important to note, that the location of filename by default, is going to look for things in a 'static' folder -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <h1 style="text-align:center;font-size:300%;color:blue;">HealthStations</h1>
+
+
+        <!-- bootstrap provides us specific class='xyz' where we can define what styling we want to apply -->
+        <button class="btn btn-primary"> Find Doctors</button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+        <button class="btn btn-success"> Find Destists </button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+        <button class="btn btn-primary"> Find Specialists</button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+        <button class="btn btn-success"> Find Hospitals </button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+        <p> This is a paragraph</p>
+
+
+        <!-- now lets take a look at something that bootstrap can provide us, a card! 
+        https://getbootstrap.com/docs/5.2/components/card/ -->
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sign In</h5>
+              <button class="btn btn-primary"> Username</button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+        <button class="btn btn-success"> Password </button> <!-- class="btn btn-primary" it is telling the styling we want to apply based on https://getbootstrap.com/docs/5.2/components/buttons/  -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Home</a>
+            </div>
+        </div> 
+        <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            </style>
+    </head>
+
+
+    <body>
+
+    
+          
+        <section>
+
+            <nav>
+                <ul>
+                
+                    <img src="static\OIP.jpg" alt="Paris" style="width:19%;">
+                </ul>
+            </nav>
+            <article>
+                <h1>About</h1>
+                <p>At HealthStations, we take the guesswork out of finding </p>
+                <p>the right doctors, hospitals, and care for you and your family.</p>
+                <p>By making healthcare easier and more transparent</p> 
+                <p>HealthStations empowers you to make decisions based on information,</p> 
+                <p>not just instinct. You can rest easy knowing you and your family </p>
+                <p>are receiving proven, high-quality care that's right for you.</p>
+                <p>Please contact us for any question you may have   <a href="https://www.w3schools.com/html/html_layout.asp">    HealthStations   </a>    </p>
+            </article>
+
+        </section>
+          
+        <footer>
+            <p>Copyright 2022 - HealthStations </p>
+        </footer>
+
+    </body>
+
+
+</html>
+
+
+
+
+
+
+    </body>
+
+  
+    
+</html>
